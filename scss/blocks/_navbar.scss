@@ -1,0 +1,396 @@
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 70px;
+   background-color: crimson;
+
+   &__ul {
+      display: flex;
+      justify-content: space-between;
+      width: 40%;
+      align-items: center;
+
+      &--list {
+         text-transform: uppercase;
+         list-style-type: none;
+
+         &-link {
+            color: #fff;
+            text-decoration: none;
+         }
+      }
+   }
+
+   .menu {
+      width: 45px;
+      height: 30px;
+      background-color: transparent;
+      position: relative;
+      display: none;
+
+      span {
+         background-color: rgb(255, 255, 255);
+         height: 4px;
+         width: 95%;
+         display: inline-block;
+         position: absolute;
+         border-radius: 10px;
+
+
+         &:nth-child(1) {
+            top: 5px
+         }
+
+
+         &:nth-child(2) {
+            top: 15px
+         }
+
+         &:nth-child(3) {
+            top: 25px
+         }
+      }
+
+   }
+
+}
+
+
+// tablet LG
+
+
+@media #{$media-tablet-lg} {
+   .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+      background-color: darkblue;
+
+      &__logo{
+         color:#fff;
+      }
+   
+      &__ul {
+         display: flex;
+         justify-content: space-around;
+         width: 80%;
+         align-items: center;
+   
+         &--list {
+            text-transform: uppercase;
+            list-style-type: none;
+   
+            &-link {
+               color: #fff;
+               text-decoration: none;
+            }
+         }
+      }
+   
+      .menu {
+         width: 45px;
+         height: 30px;
+         background-color: transparent;
+         position: relative;
+         display: none;
+   
+         span {
+            background-color: rgb(255, 255, 255);
+            height: 4px;
+            width: 95%;
+            display: inline-block;
+            position: absolute;
+            border-radius: 10px;
+   
+   
+            &:nth-child(1) {
+               top: 5px
+            }
+   
+   
+            &:nth-child(2) {
+               top: 15px
+            }
+   
+            &:nth-child(3) {
+               top: 25px
+            }
+         }
+   
+      }
+   
+   }
+ }
+
+// tablet
+
+@media #{$media-tablet} {
+   .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+      background-color: lime;
+
+      &__logo{
+         color:#fff;
+      }
+   
+      &__ul {
+         display: flex;
+         justify-content: space-around;
+         width: 80%;
+         align-items: center;
+   
+         &--list {
+            text-transform: uppercase;
+            list-style-type: none;
+   
+            &-link {
+               color: #fff;
+               text-decoration: none;
+            }
+         }
+      }
+   
+      .menu {
+         width: 45px;
+         height: 30px;
+         background-color: transparent;
+         position: relative;
+         display: none;
+   
+         span {
+            background-color: rgb(255, 255, 255);
+            height: 4px;
+            width: 95%;
+            display: inline-block;
+            position: absolute;
+            border-radius: 10px;
+   
+   
+            &:nth-child(1) {
+               top: 5px
+            }
+   
+   
+            &:nth-child(2) {
+               top: 15px
+            }
+   
+            &:nth-child(3) {
+               top: 25px
+            }
+         }
+   
+      }
+   
+   }
+ }
+ 
+// TABLET
+
+@media #{$media-mobile}{
+   .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+      background-color: coral;
+   
+      &__ul {
+         display: none;
+         justify-content: space-between;
+         width: 40%;
+         align-items: center;
+   
+         &--list {
+            text-transform: uppercase;
+            list-style-type: none;
+   
+            &-link {
+               color: #fff;
+               text-decoration: none;
+            }
+         }
+      }
+   
+      .menu {
+         width: 45px;
+         height: 30px;
+         background-color: transparent;
+         position: relative;
+         display: block;
+   
+         span {
+            background-color: rgb(0, 0, 0);
+            height: 4px;
+            width: 95%;
+            display: inline-block;
+            position: absolute;
+            border-radius: 10px;
+   
+   
+            &:nth-child(1) {
+               top: 5px
+            }
+   
+   
+            &:nth-child(2) {
+               top: 15px
+            }
+   
+            &:nth-child(3) {
+               top: 25px
+            }
+         }
+   
+      }
+   
+   }
+   
+
+}
+
+
+// LARGE DEVICE
+
+
+
+@media #{$media-mobile-sm}{
+   .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+      background-color: coral;
+   
+      &__ul {
+         display: none;
+         justify-content: space-between;
+         width: 40%;
+         align-items: center;
+   
+         &--list {
+            text-transform: uppercase;
+            list-style-type: none;
+   
+            &-link {
+               color: #fff;
+               text-decoration: none;
+            }
+         }
+      }
+   
+      .menu {
+         width: 45px;
+         height: 30px;
+         background-color: transparent;
+         position: relative;
+         display: block;
+   
+         span {
+            background-color: rgb(0, 0, 0);
+            height: 4px;
+            width: 95%;
+            display: inline-block;
+            position: absolute;
+            border-radius: 10px;
+   
+   
+            &:nth-child(1) {
+               top: 5px
+            }
+   
+   
+            &:nth-child(2) {
+               top: 15px
+            }
+   
+            &:nth-child(3) {
+               top: 25px
+            }
+         }
+   
+      }
+   
+   }
+   
+
+}
+
+// small device
+
+@media #{$media-mobile-xs}{
+   .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+      background-color: #000;
+
+      &__logo{
+         color:#fff;
+      }
+   
+      &__ul {
+         display: none;
+         justify-content: space-between;
+         width: 40%;
+         align-items: center;
+   
+         &--list {
+            text-transform: uppercase;
+            list-style-type: none;
+   
+            &-link {
+               color: #fff;
+               text-decoration: none;
+            }
+         }
+      }
+   
+      .menu {
+         width: 45px;
+         height: 30px;
+         background-color: transparent;
+         position: relative;
+         display: block;
+   
+         span {
+            background-color: rgb(255, 255, 255);
+            height: 4px;
+            width: 95%;
+            display: inline-block;
+            position: absolute;
+            border-radius: 10px;
+   
+   
+            &:nth-child(1) {
+               top: 5px
+            }
+   
+   
+            &:nth-child(2) {
+               top: 15px
+            }
+   
+            &:nth-child(3) {
+               top: 25px
+            }
+         }
+   
+      }
+   
+   }
+   
+
+}  
+
+
+
+
+
+

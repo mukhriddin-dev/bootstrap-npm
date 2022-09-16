@@ -1,0 +1,50 @@
+header {
+   width: 100%;
+   background-color: crimson;
+}
+
+
+
+@media #{$media-tablet-lg} {
+   header {
+      width: 100%;
+      background-color: darkblue;
+   }
+ }
+ 
+ 
+ @media #{$media-tablet} {
+   header {
+      width: 100%;
+      background-color: lime;
+   }
+ }
+ 
+ @media #{$media-mobile} {
+   header {
+      width: 100%;
+      background-color: coral;
+   }
+ }
+ 
+ @media #{$media-mobile-sm} {
+   .container {
+     max-width: 480px;
+     margin: 0 auto;
+     padding: 0 20px;
+   }
+ }
+ 
+ @media #{$media-mobile-xs} {
+   header {
+      width: 100%;
+      background-color: #000;
+   }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
